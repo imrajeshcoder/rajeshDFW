@@ -22,7 +22,7 @@ pod 'rajeshDFW'
 
 ## Author
 
-imrajeshcoder, rajesh.s@vrinsoft.com
+imrajeshcoder, imrajeshcoder@gmail.com
 
 ## License
 
