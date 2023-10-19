@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import rajeshDFW
 
 class ViewController: UIViewController {
 
+    let objRajeshDFW = RajeshDFW()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        objRajeshDFW.printHelloWord()
     }
 
     override func didReceiveMemoryWarning() {
