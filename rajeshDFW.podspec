@@ -31,7 +31,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'Source/**/*.swift'
-  s.swift.version = '4.0'
+
+  s.swift_version = '4.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
 
   
   # s.resource_bundles = {
