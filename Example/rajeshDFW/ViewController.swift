@@ -12,16 +12,21 @@ import rajeshDFW
 class ViewController: UIViewController {
 
     let objRajeshDFW = RajeshDFW()
+    let objLoginVC = LoginVC()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
         objRajeshDFW.printHelloWord()
     }
-
+    override func viewDidAppear(_ animated: Bool) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnAction_LoginClicked(_ sender: UIButton) {
+        present(objLoginVC, animated: true)
+    }
 }
 
