@@ -1,0 +1,16 @@
+PODS:
+  - rajeshDFW (0.1.0)
+
+DEPENDENCIES:
+  - rajeshDFW (from `../`)
+
+EXTERNAL SOURCES:
+  rajeshDFW:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  rajeshDFW: 5a0e54f272f44c1e1de6168745f54f1ef54c0816
+
+PODFILE CHECKSUM: 1b7957393b234e6351f5811c4ff7ad51be1985f1
+
+COCOAPODS: 1.11.3
