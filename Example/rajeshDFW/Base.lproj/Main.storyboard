@@ -27,13 +27,25 @@
                                     <action selector="btnAction_LoginClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VaG-ml-Fcx"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oEf-g9-XOY">
+                                <rect key="frame" x="32" y="367" width="311" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4hq-z7-TVK"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Cju-v9-BGj" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="TwN-7f-HRS"/>
+                            <constraint firstItem="oEf-g9-XOY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="Z5R-ux-ZCk"/>
+                            <constraint firstItem="oEf-g9-XOY" firstAttribute="top" secondItem="Cju-v9-BGj" secondAttribute="bottom" constant="16" id="hga-N8-xlc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oEf-g9-XOY" secondAttribute="trailing" constant="16" id="j3j-gZ-EMX"/>
                             <constraint firstItem="Cju-v9-BGj" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="q98-nQ-3gx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tmpImage" destination="oEf-g9-XOY" id="vaU-IC-Kfb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

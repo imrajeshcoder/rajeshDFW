@@ -37,7 +37,9 @@ Pod::Spec.new do |s|
   s.platforms = {
       "ios": "13.0"
   }
-
+  s.resource_bundles = {
+    'rajeshDFW' => ['resource/**/*']
+  }
   
   # s.resource_bundles = {
   #   'rajeshDFW' => ['rajeshDFW/Assets/*.png']

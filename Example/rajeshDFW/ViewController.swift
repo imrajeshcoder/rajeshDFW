@@ -11,12 +11,15 @@ import rajeshDFW
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tmpImage: UIImageView!
     let objRajeshDFW = RajeshDFW()
     let objLoginVC = LoginVC()
     override func viewDidLoad() {
         super.viewDidLoad()
 
         objRajeshDFW.printHelloWord()
+     
+        tmpImage.image = loadLoginImage(imageName: "imgLogIn")
     }
     override func viewDidAppear(_ animated: Bool) {
     }
@@ -28,5 +31,10 @@ class ViewController: UIViewController {
     @IBAction func btnAction_LoginClicked(_ sender: UIButton) {
         present(objLoginVC, animated: true)
     }
-}
+    
+    func loadLoginImage(imageName: String) -> UIImage?  {
+     let bundle: Bundle = Bundle(identifier: "org.cocoapods.rajeshDFW")!
+        return UIImage(named: imageName, in: bundle, compatibleWith: nil)
 
+    }
+}

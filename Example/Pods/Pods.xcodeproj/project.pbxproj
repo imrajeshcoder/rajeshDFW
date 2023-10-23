@@ -10,6 +10,7 @@
 		30A1AA50A5953EEFFABBBE2D10B12870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		32F09C1EE46BADD207F04B2F686C9F59 /* Pods-rajeshDFW_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B66D88D9ECAD0031D444AF3FE8D23 /* Pods-rajeshDFW_Example-dummy.m */; };
 		54696FDC63614DF5F21D26A70D1F2B20 /* Pods-rajeshDFW_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 195D715C14CEE8EF6094042335AC68AF /* Pods-rajeshDFW_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75039AB32AE6804B007A5B09 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75039AAF2AE67726007A5B09 /* Media.xcassets */; };
 		75AC4D3E2AE15C5200E9C5F1 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AC4D3C2AE15C5200E9C5F1 /* LoginVC.xib */; };
 		75AC4D3F2AE15C5200E9C5F1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC4D3D2AE15C5200E9C5F1 /* LoginVC.swift */; };
 		75E3489D2AE139C0001B0D1D /* RajeshDFW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E3489C2AE139C0001B0D1D /* RajeshDFW.swift */; };
@@ -55,6 +56,7 @@
 		5F675F493A7E2D7E6CEE77EDCABB7026 /* Pods-rajeshDFW_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-rajeshDFW_Tests.modulemap"; sourceTree = "<group>"; };
 		6F8842AA730C141546F1282D67328E26 /* rajeshDFW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = rajeshDFW.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75039AAF2AE67726007A5B09 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		75AC4D3C2AE15C5200E9C5F1 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		75AC4D3D2AE15C5200E9C5F1 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		75E3489C2AE139C0001B0D1D /* RajeshDFW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RajeshDFW.swift; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		75039AAE2AE67717007A5B09 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				75039AAF2AE67726007A5B09 /* Media.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		75E348952AE1381F001B0D1D /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +239,7 @@
 		E15153F8255F319FF566F25DA2EF3EB5 /* rajeshDFW */ = {
 			isa = PBXGroup;
 			children = (
+				75039AAE2AE67717007A5B09 /* resource */,
 				75E348952AE1381F001B0D1D /* Source */,
 				C94BEB913ACBB8CF9A5E26220A29E542 /* Pod */,
 				27B5A732A36F93452316455A817314E9 /* Support Files */,
@@ -379,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75039AB32AE6804B007A5B09 /* Media.xcassets in Resources */,
 				75AC4D3E2AE15C5200E9C5F1 /* LoginVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
